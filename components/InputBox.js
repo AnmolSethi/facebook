@@ -7,7 +7,7 @@ import { db, storage } from "../firebase";
 import firebase from "firebase";
 
 function InputBox() {
-  const [session] = useSession();
+  const [session, loading] = useSession();
   const inputRef = useRef(null);
   const filepickerRef = useRef(null);
   const [imageToPost, setImageToPost] = useState(null);
@@ -70,7 +70,7 @@ function InputBox() {
 
   return (
     <div className="bg-white rounded-2xl p-2 shadow-md text-gray-500 font-medium mt-6">
-      <div className="flex space-x-4 p-4 items-center">
+      <div className="flex space-x-2 p-4 items-center">
         <Image
           className="rounded-full"
           src={session.user.image}
