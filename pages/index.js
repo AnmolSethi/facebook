@@ -14,8 +14,14 @@ export default function Home({ session, posts }) {
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>
         <title>Facebook by Anmol Sethi</title>
-        <meta name="description" content="description" />
-        <meta name="keywords" content="my awesome app" />
+        <meta
+          name="description"
+          content="This is a Facebook clone built using NextJS and Tailwind CSS"
+        />
+        <meta
+          name="keywords"
+          content="facebook, facebook clone, social media, anmol sethi"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
