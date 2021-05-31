@@ -13,7 +13,7 @@ import {
 import SidebarRow from "./SidebarRow";
 
 function Sidebar() {
-  const [session, loading] = useSession();
+  const [session] = useSession();
 
   return (
     <div className="hidden md:flex md:flex-col p-2 mt-5 max-w-[600px] xl:min-w-[300px]">

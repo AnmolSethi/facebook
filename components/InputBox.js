@@ -114,7 +114,7 @@ function InputBox() {
           onClick={() => filepickerRef.current.click()}
         >
           <CameraIcon className="h-7 text-green-500" />
-          <p className="text-xs sm:text-sm xl:text-base">Photo/Video</p>
+          <p className="text-xs sm:text-sm xl:text-base">Photo</p>
           <input
             ref={filepickerRef}
             hidden
@@ -125,7 +125,7 @@ function InputBox() {
 
         <div className="inputIcon">
           <EmojiHappyIcon className="h-7 text-yellow-500" />
-          <p className="text-xs sm:text-sm xl:text-base">Feeling/Activity</p>
+          <p className="text-xs sm:text-sm xl:text-base">Activity</p>
         </div>
       </div>
     </div>
