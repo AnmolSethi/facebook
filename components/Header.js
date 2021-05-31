@@ -66,7 +66,7 @@ function Header() {
         />
 
         {/* Name */}
-        <p className="whitespace-nowrap font-semibold pr-3 pl-2">
+        <p className="hidden md:flex whitespace-nowrap font-semibold pr-3 pl-2">
           {session.user.name}
         </p>
         <ViewGridIcon className="icon" />
