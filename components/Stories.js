@@ -4,7 +4,8 @@ const stories = [
   {
     name: "Anmol Sethi",
     src: "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3889025321210082&height=50&width=50&ext=1624910682&hash=AeT66ovkQ83makQiXo8",
-    profile: "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3889025321210082&height=50&width=50&ext=1624910682&hash=AeT66ovkQ83makQiXo8",
+    profile:
+      "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3889025321210082&height=50&width=50&ext=1624910682&hash=AeT66ovkQ83makQiXo8",
   },
   {
     name: "Elon Musk",
